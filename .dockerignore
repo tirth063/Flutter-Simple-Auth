@@ -1,0 +1,47 @@
+# Flutter
+.dart_tool/
+.flutter-plugins-dependencies
+build/
+.android/
+.ios/
+.macos/
+.linux/
+.windows/
+.pub-cache/
+.pub/
+*.iml
+
+# Backend
+backend/auth_demo/__pycache__/
+backend/auth_demo/**/__pycache__/
+backend/auth_demo/db.sqlite3
+backend/auth_demo/media/
+backend/auth_demo/staticfiles/
+*.pyc
+*.pyo
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Git
+.git/
+.gitignore
+
+# Docker
+docker-compose.yml
+.env
+.env.*
+
+# Test
+test/
+
+# CI/CD
+.github/
+
+# Misc
+*.log
+.DS_Store
+README.md
